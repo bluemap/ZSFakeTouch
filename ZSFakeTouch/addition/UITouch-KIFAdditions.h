@@ -19,7 +19,7 @@ KW_FIX_CATEGORY_BUG_H(UITouch_KIFAdditions)
 - (void)setWindow:(UIWindow *)window;
 - (void)setView:(UIView *)view;
 - (void)setTapCount:(NSUInteger)tapCount;
-- (void)setIsTap:(BOOL)isTap;
+//- (void)setIsTap:(BOOL)isTap;
 - (void)setTimestamp:(NSTimeInterval)timestamp;
 - (void)setPhase:(UITouchPhase)touchPhase;
 - (void)setGestureView:(UIView *)view;
