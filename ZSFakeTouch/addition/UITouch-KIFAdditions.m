@@ -141,7 +141,7 @@ typedef struct {
     [self setPhase:UITouchPhaseEnded];
     //NSLog(@"init...touch...setPhase 3");
     if ([self respondsToSelector:@selector(_setIsFirstTouchForView:)]) {
-        [self setIsTap:YES];
+        [self _setIsTapToClick:YES];
         [self _setIsFirstTouchForView:YES];
     } else {
         [self _setIsTapToClick:YES];
